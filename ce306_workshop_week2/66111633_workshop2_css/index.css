@@ -1,0 +1,55 @@
+        @media (min-width:769px){
+            .container{
+                flex-wrap: nowrap;
+                flex-direction: row;
+            }
+
+
+
+        }
+        @media (min-width:481px) and (max-width:768px){
+            .container{
+                flex-wrap: wrap;
+                flex-direction:row;
+                justify-content: center;
+               gap:30px;
+
+            }
+            .card{
+
+                max-width:200px;
+                min-width: 100px;
+                
+                
+            }
+/*  */
+        }
+        @media (max-width:550px){
+            .container{
+                gap:10px;
+            }
+            .card{
+                max-width:180px;
+            }
+        }
+
+        @media (max-width:480px){
+            .container{
+                flex-wrap: wrap;
+                flex-direction: column;
+            }
+            .card{
+                max-width:300px;
+                min-width: auto;
+
+            }
+            
+            .link{
+                gap:10px;
+            }
+            .active{
+                font-size: 14px;
+                padding : 5px 8px;
+            }
+
+        }

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WorkShop3</title>
+    <link rel="stylesheet" href="workshop3.css">
+
+    <style>
+        .pic{
+            max-width: 100%;
+            width:500px;
+            height:280px;
+            height: 100%;
+            max-height:auto;
+            border-radius: 10px;
+        }
+
+        .container{
+            position :relative;
+            display:inline-block;
+
+            overflow:hidden;
+            cursor:pointer;
+
+        }
+        .container::before{
+            content:"";
+            position:absolute;
+            top:0;
+            left:0;
+            width:100%;
+            height:100%;
+            background: rgba(0,0,0,0.5);
+            opacity: 0;
+            transition:1s;
+            border-radius: 10px;
+        }
+
+        .container::after{
+            content:"ดูรายละเอียด";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); 
+
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            opacity: 0;
+            transition: 1s;
+            pointer-events: none;
+
+
+        }
+
+        .container:hover:before,
+        .container:hover:after{
+            opacity:1;
+        }
+
+
+    .boat{
+        /*  */
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        gap:10px;
+        flex-wrap: wrap;
+        height:100vh;
+    }
+    </style>
+
+    
+
+</head>
+<body>
+    <div class="boat" >
+        <div class="container">
+        <img class="pic" src="https://www.free-wallpapers.su/data/media/3/big/anm8492.jpg" alt="">
+
+        </div>
+        <div class="container">
+            <img class="pic" src="https://www.mustplay.in.th/static/thumb/2024/9/25/attach-1729852104010.jpg" alt="">
+        </div>
+
+    </div>    
+</div>  
+</body>
+</html>

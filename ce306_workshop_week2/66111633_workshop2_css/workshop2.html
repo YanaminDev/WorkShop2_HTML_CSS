@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WorkShop2</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+    <style>
+        body{
+            background-color: rgb(189, 255, 255);
+        }
+
+
+        .tab{
+
+            display:flex;
+            
+            background-color: rgb(46, 46, 46) ;
+            max-width: 2200px;
+
+            width: 100%;
+
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1;
+
+            justify-content: center;
+            align-items: center;
+
+            text-align: center;
+
+            box-shadow: 4px 4px 5px 2px grey;
+            
+        }
+
+        .link{
+            display:flex;
+            padding:20px;
+            list-style: none;
+            gap:80px;
+            
+            
+        }
+        .active{
+            font-size: 25px;
+            text-decoration: none;
+            color:aliceblue;
+        }
+
+        .text{
+            background-color: rgb(255, 255, 255);
+            width: 100%;
+            max-width: 1200px;
+            min-width: 100px;
+            min-height :2100px;
+            max-height:23000px;
+            
+            margin: 100px auto;
+
+            display:flex;
+            justify-content: flex-start;
+            align-items: flex-start; 
+            padding: 40px; /**/
+
+            box-sizing: border-box;
+        }
+
+        
+        .containe_text{
+            display: flex;
+            flex-wrap:wrap;
+            flex-direction: column;
+            /* -------------------------------- */
+            max-width: 100%;
+            min-width: auto;
+          
+        }
+
+        *{
+            box-sizing: border-box;
+        }
+
+        h1{
+            font-size: 60px;
+        }
+        p{
+            font-size: clammp(2px,2vw,18px);
+            text-indent : 2em;
+        }
+
+        footer{
+            display : flex;
+            justify-content: center;
+            align-items: center;
+
+
+            max-width: 1900px;
+            min-width: 100px;
+
+            background-color: rgb(46, 46, 46);
+            height: 100px;
+            color:aliceblue;
+
+
+        }
+        
+        .textfooter{
+            font-size:20px;
+            margin:0px;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 400;
+        }
+    </style>
+
+    <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+    <nav class="tab">
+        <ul class="link">
+            <li><a href="#" class="active">หน้าเเรก</a></li>
+            <li><a href="#" class="active">เกี่ยวกับเรา</a></li>
+            <li><a href="#" class="active">บริการ</a></li>
+            <li><a href="#" class="active">ผลงาน</a></li>
+            <li><a href="#" class="active">ติดต่อ</a></li>
+        </ul>
+    </nav>
+    <div class="text">
+        <div class="container_text">
+            <h1>Welcome to Our Awesome Website</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae est suscipit recusandae, reprehenderit unde laborum voluptas inventore quisquam quasi totam cum officia optio esse corrupti repudiandae cupiditate velit earum? Modi excepturi debitis natus quasi? Quibusdam harum nulla ipsum culpa quis sed assumenda accusamus nemo id officia odit, totam molestias, minima odio corporis est neque perferendis rerum veritatis provident asperiores, tempora voluptas ea sint. Voluptatem velit eligendi recusandae molestias, iste quod. Ipsa, in hic nam error provident inventore molestias consequatur, alias officiis nulla voluptates, corrupti fugiat dicta deserunt aspernatur iusto aperiam enim rerum soluta. Deserunt ipsum eius porro neque tenetur quam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae est suscipit recusandae, reprehenderit unde laborum voluptas inventore quisquam quasi totam cum officia optio esse corrupti repudiandae cupiditate velit earum? Modi excepturi debitis natus quasi? Quibusdam harum nulla ipsum culpa quis sed assumenda accusamus nemo id officia odit, totam molestias, minima odio corporis est neque perferendis rerum veritatis provident asperiores, tempora voluptas ea sint. Voluptatem velit eligendi recusandae molestias, iste quod. Ipsa, in hic nam error provident inventore molestias consequatur, alias officiis nulla voluptates, corrupti fugiat dicta deserunt aspernatur iusto aperiam enim rerum soluta. Deserunt ipsum eius porro neque tenetur quam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae est suscipit recusandae, reprehenderit unde laborum voluptas inventore quisquam quasi totam cum officia optio esse corrupti repudiandae cupiditate velit earum? Modi excepturi debitis natus quasi? Quibusdam harum nulla ipsum culpa quis sed assumenda accusamus nemo id officia odit, totam molestias, minima odio corporis est neque perferendis rerum veritatis provident asperiores, tempora voluptas ea sint. Voluptatem velit eligendi recusandae molestias, iste quod. Ipsa, in hic nam error provident inventore molestias consequatur, alias officiis nulla voluptates, corrupti fugiat dicta deserunt aspernatur iusto aperiam enim rerum soluta. Deserunt ipsum eius porro neque tenetur quam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae est suscipit recusandae, reprehenderit unde laborum voluptas inventore quisquam quasi totam cum officia optio esse corrupti repudiandae cupiditate velit earum? Modi excepturi debitis natus quasi? Quibusdam harum nulla ipsum culpa quis sed assumenda accusamus nemo id officia odit, totam molestias, minima odio corporis est neque perferendis rerum veritatis provident asperiores, tempora voluptas ea sint. Voluptatem velit eligendi recusandae molestias, iste quod. Ipsa, in hic nam error provident inventore molestias consequatur, alias officiis nulla voluptates, corrupti fugiat dicta deserunt aspernatur iusto aperiam enim rerum soluta. Deserunt ipsum eius porro neque tenetur quam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae est suscipit recusandae, reprehenderit unde laborum voluptas inventore quisquam quasi totam cum officia optio esse corrupti repudiandae cupiditate velit earum? Modi excepturi debitis natus quasi? Quibusdam harum nulla ipsum culpa quis sed assumenda accusamus nemo id officia odit, totam molestias, minima odio corporis est neque perferendis rerum veritatis provident asperiores, tempora voluptas ea sint. Voluptatem velit eligendi recusandae molestias, iste quod. Ipsa, in hic nam error provident inventore molestias consequatur, alias officiis nulla voluptates, corrupti fugiat dicta deserunt aspernatur iusto aperiam enim rerum soluta. Deserunt ipsum eius porro neque tenetur quam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae est suscipit recusandae, reprehenderit unde laborum voluptas inventore quisquam quasi totam cum officia optio esse corrupti repudiandae cupiditate velit earum? Modi excepturi debitis natus quasi? Quibusdam harum nulla ipsum culpa quis sed assumenda accusamus nemo id officia odit, totam molestias, minima odio corporis est neque perferendis rerum veritatis provident asperiores, tempora voluptas ea sint. Voluptatem velit eligendi recusandae molestias, iste quod. Ipsa, in hic nam error provident inventore molestias consequatur, alias officiis nulla voluptates, corrupti fugiat dicta deserunt aspernatur iusto aperiam enim rerum soluta. Deserunt ipsum eius porro neque tenetur quam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae est suscipit recusandae, reprehenderit unde laborum voluptas inventore quisquam quasi totam cum officia optio esse corrupti repudiandae cupiditate velit earum? Modi excepturi debitis natus quasi? Quibusdam harum nulla ipsum culpa quis sed assumenda accusamus nemo id officia odit, totam molestias, minima odio corporis est neque perferendis rerum veritatis provident asperiores, tempora voluptas ea sint. Voluptatem velit eligendi recusandae molestias, iste quod. Ipsa, in hic nam error provident inventore molestias consequatur, alias officiis nulla voluptates, corrupti fugiat dicta deserunt aspernatur iusto aperiam enim rerum soluta. Deserunt ipsum eius porro neque tenetur quam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae est suscipit recusandae, reprehenderit unde laborum voluptas inventore quisquam quasi totam cum officia optio esse corrupti repudiandae cupiditate velit earum? Modi excepturi debitis natus quasi? Quibusdam harum nulla ipsum culpa quis sed assumenda accusamus nemo id officia odit, totam molestias, minima odio corporis est neque perferendis rerum veritatis provident asperiores, tempora voluptas ea sint. Voluptatem velit eligendi recusandae molestias, iste quod. Ipsa, in hic nam error provident inventore molestias consequatur, alias officiis nulla voluptates, corrupti fugiat dicta deserunt aspernatur iusto aperiam enim rerum soluta. Deserunt ipsum eius porro neque tenetur quam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae est suscipit recusandae, reprehenderit unde laborum voluptas inventore quisquam quasi totam cum officia optio esse corrupti repudiandae cupiditate velit earum? Modi excepturi debitis natus quasi? Quibusdam harum nulla ipsum culpa quis sed assumenda accusamus nemo id officia odit, totam molestias, minima odio corporis est neque perferendis rerum veritatis provident asperiores, tempora voluptas ea sint. Voluptatem velit eligendi recusandae molestias, iste quod. Ipsa, in hic nam error provident inventore molestias consequatur, alias officiis nulla voluptates, corrupti fugiat dicta deserunt aspernatur iusto aperiam enim rerum soluta. Deserunt ipsum eius porro neque tenetur quam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae est suscipit recusandae, reprehenderit unde laborum voluptas inventore quisquam quasi totam cum officia optio esse corrupti repudiandae cupiditate velit earum? Modi excepturi debitis natus quasi? Quibusdam harum nulla ipsum culpa quis sed assumenda accusamus nemo id officia odit, totam molestias, minima odio corporis est neque perferendis rerum veritatis provident asperiores, tempora voluptas ea sint. Voluptatem velit eligendi recusandae molestias, iste quod. Ipsa, in hic nam error provident inventore molestias consequatur, alias officiis nulla voluptates, corrupti fugiat dicta deserunt aspernatur iusto aperiam enim rerum soluta. Deserunt ipsum eius porro neque tenetur quam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae est suscipit recusandae, reprehenderit unde laborum voluptas inventore quisquam quasi totam cum officia optio esse corrupti repudiandae cupiditate velit earum? Modi excepturi debitis natus quasi? Quibusdam harum nulla ipsum culpa quis sed assumenda accusamus nemo id officia odit, totam molestias, minima odio corporis est neque perferendis rerum veritatis provident asperiores, tempora voluptas ea sint. Voluptatem velit eligendi recusandae molestias, iste quod. Ipsa, in hic nam error provident inventore molestias consequatur, alias officiis nulla voluptates, corrupti fugiat dicta deserunt aspernatur iusto aperiam enim rerum soluta. Deserunt ipsum eius porro neque tenetur quam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae est suscipit recusandae, reprehenderit unde laborum voluptas inventore quisquam quasi totam cum officia optio esse corrupti repudiandae cupiditate velit earum? Modi excepturi debitis natus quasi? Quibusdam harum nulla ipsum culpa quis sed assumenda accusamus nemo id officia odit, totam molestias, minima odio corporis est neque perferendis rerum veritatis provident asperiores, tempora voluptas ea sint. Voluptatem velit eligendi recusandae molestias, iste quod. Ipsa, in hic nam error provident inventore molestias consequatur, alias officiis nulla voluptates, corrupti fugiat dicta deserunt aspernatur iusto aperiam enim rerum soluta. Deserunt ipsum eius porro neque tenetur quam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae est suscipit recusandae, reprehenderit unde laborum voluptas inventore quisquam quasi totam cum officia optio esse corrupti repudiandae cupiditate velit earum? Modi excepturi debitis natus quasi? Quibusdam harum nulla ipsum culpa quis sed assumenda accusamus nemo id officia odit, totam molestias, minima odio corporis est neque perferendis rerum veritatis provident asperiores, tempora voluptas ea sint. Voluptatem velit eligendi recusandae molestias, iste quod. Ipsa, in hic nam error provident inventore molestias consequatur, alias officiis nulla voluptates, corrupti fugiat dicta deserunt aspernatur iusto aperiam enim rerum soluta. Deserunt ipsum eius porro neque tenetur quam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae est suscipit recusandae, reprehenderit unde laborum voluptas inventore quisquam quasi totam cum officia optio esse corrupti repudiandae cupiditate velit earum? Modi excepturi debitis natus quasi? Quibusdam harum nulla ipsum culpa quis sed assumenda accusamus nemo id officia odit, totam molestias, minima odio corporis est neque perferendis rerum veritatis provident asperiores, tempora voluptas ea sint. Voluptatem velit eligendi recusandae molestias, iste quod. Ipsa, in hic nam error provident inventore molestias consequatur, alias officiis nulla voluptates, corrupti fugiat dicta deserunt aspernatur iusto aperiam enim rerum soluta. Deserunt ipsum eius porro neque tenetur quam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae est suscipit recusandae, reprehenderit unde laborum voluptas inventore quisquam quasi totam cum officia optio esse corrupti repudiandae cupiditate velit earum? Modi excepturi debitis natus quasi? Quibusdam harum nulla ipsum culpa quis sed assumenda accusamus nemo id officia odit, totam molestias, minima odio corporis est neque perferendis rerum veritatis provident asperiores, tempora voluptas ea sint. Voluptatem velit eligendi recusandae molestias, iste quod. Ipsa, in hic nam error provident inventore molestias consequatur, alias officiis nulla voluptates, corrupti fugiat dicta deserunt aspernatur iusto aperiam enim rerum soluta. Deserunt ipsum eius porro neque tenetur quam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae est suscipit recusandae, reprehenderit unde laborum voluptas inventore quisquam quasi totam cum officia optio esse corrupti repudiandae cupiditate velit earum? Modi excepturi debitis natus quasi? Quibusdam harum nulla ipsum culpa quis sed assumenda accusamus nemo id officia odit, totam molestias, minima odio corporis est neque perferendis rerum veritatis provident asperiores, tempora voluptas ea sint. Voluptatem velit eligendi recusandae molestias, iste quod. Ipsa, in hic nam error provident inventore molestias consequatur, alias officiis nulla voluptates, corrupti fugiat dicta deserunt aspernatur iusto aperiam enim rerum soluta. Deserunt ipsum eius porro neque tenetur quam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae est suscipit recusandae, reprehenderit unde laborum voluptas inventore quisquam quasi totam cum officia optio esse corrupti repudiandae cupiditate velit earum? Modi excepturi debitis natus quasi? Quibusdam harum nulla ipsum culpa quis sed assumenda accusamus nemo id officia odit, totam molestias, minima odio corporis est neque perferendis rerum veritatis provident asperiores, tempora voluptas ea sint. Voluptatem velit eligendi recusandae molestias, iste quod. Ipsa, in hic nam error provident inventore molestias consequatur, alias officiis nulla voluptates, corrupti fugiat dicta deserunt aspernatur iusto aperiam enim rerum soluta. Deserunt ipsum eius porro neque tenetur quam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae est suscipit recusandae, reprehenderit unde laborum voluptas inventore quisquam quasi totam cum officia optio esse corrupti repudiandae cupiditate velit earum? Modi excepturi debitis natus quasi? Quibusdam harum nulla ipsum culpa quis sed assumenda accusamus nemo id officia odit, totam molestias, minima odio corporis est neque perferendis rerum veritatis provident asperiores, tempora voluptas ea sint. Voluptatem velit eligendi recusandae molestias, iste quod. Ipsa, in hic nam error provident inventore molestias consequatur, alias officiis nulla voluptates, corrupti fugiat dicta deserunt aspernatur iusto aperiam enim rerum soluta. Deserunt ipsum eius porro neque tenetur quam.</p>
+
+        </div>
+        
+    </div>
+
+    <footer>
+        <h6 class="textfooter">2025 Sticky Navbar Example</h6>
+        <!--  -->
+    </footer>
+
+</body>
+</html>

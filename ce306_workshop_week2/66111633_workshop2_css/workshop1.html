@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WorkShop1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="index.css">
+    <style>
+        
+        body{
+            background-image: url("https://static.vecteezy.com/system/resources/previews/015/430/340/non_2x/minimal-abstract-background-illustration-soft-earth-tone-pastel-color-organic-shape-and-curve-line-art-design-for-decoration-card-wall-art-print-poster-home-decor-cover-wallpaper-vector.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        .container{
+            display : flex;
+            gap: 10px;
+            justify-content: flex-start;
+            align-items: center;
+            /* flex-wrap: wrap; */
+            max-width: 1200px;
+            min-width: auto;
+            width: 100%;
+            margin : 0 auto ; 
+
+        }
+        .card{
+
+            padding : 15px;
+            box-shadow : 4px 4px 5px 2px grey;
+            border-radius: 10px;
+            max-width: 300px;
+
+
+            /*max-height: 900%; */
+            /* min-height: auto; 
+            min-width: auto;  */
+            flex-basis: 300px;
+            display: flex;
+            flex-direction: column; 
+            /* flex-grow : 1; */
+            justify-content: center;
+
+            background-image: url("https://marketplace.canva.com/EAGBVSCYp9c/1/0/900w/canva-beige-pastel-aesthetic-background-story-NxT2XIsYuDg.jpg");
+            background-size : cover;
+            
+
+
+        }
+
+        .card img{
+            max-width:100%;
+            min-width: auto;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .card button{
+            padding:10px;
+            background-color:rgb(61, 50, 34);
+            color : white;
+            border-radius : 10px;
+            border:none;
+
+        }
+
+        .card button:hover{
+            background-color: rgb(165, 137, 114);
+            color: rgb(63, 51, 39);
+            border:none;
+
+        }
+
+
+
+
+        .active{
+            
+            min-width: 100px;
+            text-decoration: none;
+            color: rgb(139, 93, 77);
+            font-size:30px;
+            font-family: "Work Sans", sans-serif;
+            font-weight: 600;
+
+            
+            padding:20px;
+            border-radius: 10px;
+
+            margin:10px;
+
+        }
+
+        .active:hover{
+            background-color: rgb(77, 56, 30);
+            color:bisque;
+            border-radius: 40px;
+        }
+
+
+        .card:hover{
+             transition: transform 0.5s ease-in-out;
+             transform: scale(1.05);
+        }
+
+        
+    </style>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    
+
+    <div class="container">
+        <div class="card">
+            <img src="https://umusic.co.th/cdn/shop/files/FujiiKaze_BestLP_cover_fix.jpg?v=1731570128&width=2000" alt="picture1">
+            <h3 class="head_name">Fujii Kaze</h3>
+            <p class="data">เป็นนักร้อง, นักแต่งเพลง, โปรดิวเซอร์ และนักดนตรีชาวญี่ปุ่นที่มีเอกลักษณ์ในด้านแนวดนตรีหลากหลาย ทั้ง J-pop, R&B, Soul, Funk, Jazz และ City Pop ที่ผสมผสานกันอย่างลงตัว จนกลายเป็นศิลปินรุ่นใหม่ที่ประสบความสำเร็จอย่างมากทั้งในญี่ปุ่นและต่างประเทศ โดยเฉพาะในไทยเองก็ได้รับความนิยมสูงมาก</p>
+            <button>Read More</button>
+        </div>
+        <div class="card">
+            <img src="https://cdn.ennxo.com/content/uploads/1600/joji14563.jpg" alt="picture1">
+            <h3 class="head_name" >Joji</h3>
+            <p class="data">เป็นนักร้อง, นักแต่งเพลง, โปรดิวเซอร์ และนักดนตรีชาวญี่ปุ่นที่มีเอกลักษณ์ในด้านแนวดนตรีหลากหลาย ทั้ง J-pop, R&B, Soul, Funk, Jazz และ City Pop ที่ผสมผสานกันอย่างลงตัว จนกลายเป็นศิลปินรุ่นใหม่ที่ประสบความสำเร็จอย่างมากทั้งในญี่ปุ่นและต่างประเทศ โดยเฉพาะในไทยเองก็ได้รับความนิยมสูงมาก</p>
+            <button>Read More</button>
+        </div>
+        <div class="card">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_851054-MLA79460463478_102024-O.webp" alt="picture1">
+            <h3 class="head_name">The Weekend</h3>
+            <p class="data">เป็นนักร้อง, นักแต่งเพลง, โปรดิวเซอร์ และนักดนตรีชาวญี่ปุ่นที่มีเอกลักษณ์ในด้านแนวดนตรีหลากหลาย ทั้ง J-pop, R&B, Soul, Funk, Jazz และ City Pop ที่ผสมผสานกันอย่างลงตัว จนกลายเป็นศิลปินรุ่นใหม่ที่ประสบความสำเร็จอย่างมากทั้งในญี่ปุ่นและต่างประเทศ โดยเฉพาะในไทยเองก็ได้รับความนิยมสูงมาก</p>
+            <button>Read More</button>
+        </div>
+        <div class="card">
+            <img src="https://i.scdn.co/image/ab6761610000e5ebc9ee6593ec80e073c20eccc8" alt="picture1">
+            <h3 class="head_name">Natori</h3>
+            <p class="data">เป็นนักร้อง, นักแต่งเพลง, โปรดิวเซอร์ และนักดนตรีชาวญี่ปุ่นที่มีเอกลักษณ์ในด้านแนวดนตรีหลากหลาย ทั้ง J-pop, R&B, Soul, Funk, Jazz และ City Pop ที่ผสมผสานกันอย่างลงตัว จนกลายเป็นศิลปินรุ่นใหม่ที่ประสบความสำเร็จอย่างมากทั้งในญี่ปุ่นและต่างประเทศ โดยเฉพาะในไทยเองก็ได้รับความนิยมสูงมาก</p>
+              <button>Read More</button>
+
+              
+        </div>
+        <!--  -->
+    </div>
+</body>
+</html>
